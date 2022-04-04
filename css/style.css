@@ -1,0 +1,267 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070707;
+    font-size: 18px;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+  a{
+    text-decoration: none;
+  }
+  .container{
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+  }
+  
+  .header {
+    background-color: transparent;
+  }
+  
+  .header__menu {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+  }
+  
+  .link__menu {
+    text-decoration: none;
+    padding: 30px 0px 34px;
+    color: #828282;
+    font-weight: 700;
+  }
+  .link__menu:nth-child(1){
+    color: #070707;
+  }
+  
+  .link__menu:hover {
+    color: #070707;
+  }
+  
+  .link__menu.w--current {
+    color: #070707;
+  }
+  
+  .hero__section {
+    padding-top: 34px;
+    padding-bottom: 104px;
+  }
+  
+  .hero__author-row {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .title__hero {
+    font-size: 47px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  
+  .desc__hero {
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  
+  .link__language {
+    color: #828282;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .link__language:hover {
+    color: #070707;
+  }
+  
+  .link__language.w--current {
+    color: #070707;
+  }
+  
+  .links__language-wrp {
+    position: relative;
+    left: 25px;
+    bottom: 34px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    transform: rotate(-90deg);
+  }
+  
+  .links__language-wrp.menu {
+    display: none;
+  }
+  
+  .sep__language {
+    padding-right: 5px;
+    padding-left: 3px;
+    line-height: 1;
+  }
+  
+  .wrp__hero-img {
+    margin-top: 43px;
+  }
+  
+  .image__hero-author {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .about__section {
+    padding-top: 117px;
+    padding-bottom: 70px;
+    background-color: #f6f6f6;
+  }
+  
+  .about__content {
+    margin-top: 23px;
+  }
+  
+  .desc__about {
+    margin-bottom: 41px;
+    text-align: center;
+  }
+  
+  .skills__section {
+    padding-top: 88px;
+    padding-bottom: 115px;
+  }
+  
+  .desc__skills {
+    margin-top: 57px;
+    text-align: center;
+  }
+  
+  .row__skills {
+    display: flex;
+    margin-top: 88px;
+    justify-content: space-between;
+  }
+  
+  .box__skill {
+    display: flex;
+    width: 169px;
+    min-height: 202px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .name__skill {
+    margin-top: 20px;
+    padding-right: 65px;
+    padding-left: 65px;
+    color: #828282;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .wrp__star-skill {
+    display: flex;
+    width: 100%;
+    margin-top: auto;
+    justify-content: space-between;
+    line-height: 1;
+  }
+  
+  .img__star-skill.gray {
+    padding-right: 0px;
+  }
+  
+  .portfolio__section {
+    padding-top: 110px;
+    background-color: #f6f6f6;
+  }
+  
+  .wrp__img-portfolio {
+    margin-top: 57px;
+  }
+  
+  .link__portfolio {
+    color: #070707;
+  }
+  
+  .link__portfolio:hover {
+    text-decoration: none;
+  }
+  
+  .wrp__link-portfolio {
+    margin-top: 39px;
+    padding-bottom: 102px;
+    text-align: center;
+  }
+  
+  .contacts__section {
+    padding-top: 110px;
+    padding-bottom: 123px;
+  }
+  
+  .desc__contacts {
+    max-width: 275px;
+    margin-top: 26px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 42px;
+  }
+  
+  .btn__contacts {
+    margin-top: 32px;
+    padding: 12px 29px;
+    border-radius: 20px;
+    background-color: #070707;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  .btn__contacts:hover {
+    background-color: #828282;
+  }
+  
+  .wrp__content-contacts {
+    text-align: center;
+  }
+  
+  .row__icon-contacts {
+    display: flex;
+    max-width: 342px;
+    margin-top: 86px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+  }
+  
+  .wrp__link-icon {
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+  }
+  
+  .wrp__link-icon:hover {
+    opacity: 0.5;
+  }
+  
+  .text__icon-contacts {
+    margin-top: 41px;
+    color: #828282;
+    font-size: 14px;
+  }
+  
+  .close {
+    display: none;
+  }
+  
